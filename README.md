@@ -4,7 +4,7 @@
     <head>
         <link rel="stylesheet" href="./styles.css">
 <table style="background-color:#F8C8DC">  
-</head> 
+<head> 
     <body>
         <div class="container">
             <div >
