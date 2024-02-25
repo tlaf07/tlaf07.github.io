@@ -1,4 +1,6 @@
- </head> 
+<!doctype html>
+<html lang="en">
+</head> 
     <body>
         <div class="container">
             <div >
