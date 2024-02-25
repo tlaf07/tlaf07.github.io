@@ -1,0 +1,53 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "<html lang=\"en\">\n",
+    "    <body>\n",
+    "       <link rel=\"stylesheet\" href=\"styles.css\">\n",
+    "<body> \n",
+    "    <body>\n",
+    "        <div class=\"container\">\n",
+    "            <div >\n",
+    "                <h1 class = \"header_text\">Doth thou desire to fuck?</h1>\n",
+    "            </div>\n",
+    "            <div class=\"gif_container\">\n",
+    "                <img src=\"https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif\" alt=\"Cute animated illustration\">\n",
+    "            </div>\n",
+    "            <div class = \"buttons\">\n",
+    "                <button class=\"btn\" id = \"yesButton\" onclick=\"nextPage()\">Yes</button>\n",
+    "                <button class=\"btn\" id=\"noButton\" onmouseover=\"moveButton()\" onclick=\"moveButton()\">No</button>\n",
+    "                <script>\n",
+    "                    function nextPage() {\n",
+    "                        window.location.href = \"yes.html\";\n",
+    "                    }\n",
+    "                    \n",
+    "                    function moveButton() {\n",
+    "                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;\n",
+    "                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;\n",
+    "                        document.getElementById('noButton').style.left = `${x}px`;\n",
+    "                        document.getElementById('noButton').style.top = `${y}px`;\n",
+    "                    }\n",
+    "                </script> \n",
+    "            </div>\n",
+    "        </div>\n",
+    "       \n",
+    "    </body> \n",
+    "<html>"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
