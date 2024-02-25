@@ -3,7 +3,8 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./styles.css">
-        
+        body { 
+        background: pink;
     </head> 
     <body>
         <div class="container">
