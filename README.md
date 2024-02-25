@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         < body {
@@ -95,7 +94,7 @@
         padding: 15px 25px;
         font-size: 14px;
     }
-}>
+}
         
     </head> 
     <body>
